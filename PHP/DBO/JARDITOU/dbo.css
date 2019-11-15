@@ -1,0 +1,82 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  html {
+    font-size: 100%;
+    line-height: 1.2;
+  }
+  body {
+    padding-top: 70px;
+    margin: 0;
+
+  }
+  
+  .viewport-header {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    
+    align-items: center;
+    justify-content: center;
+    background-image: url("jarditou_photos/background5.jpg");
+  }
+  
+  h1 {
+    font-family: "cookie";
+    
+    text-transform: uppercase;
+    letter-spacing: 3vw;
+    line-height: 1.2;
+    font-size: 3vw;
+    text-align: center;
+    span {
+      display: block;
+      font-size: 10vw;
+      letter-spacing: -1.3vw;
+    }
+  }
+   
+  .container {
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 120%;
+    font-weight: bold;
+    position: relative;
+    padding: 1rem;
+  
+  }
+  #colonne{
+    background-image: url("jarditou_photos/background1.jpg");
+
+
+  }
+  #toutjardin{
+    color:white;
+  }
+  #navet{
+
+    background-image: url("jarditou_photos/background5.jpg");
+
+
+  }
+
+.ul{
+float:center;
+}
+* { padding: 0; margin: 0; }
+canvas { 
+  background-image: url("jarditou_photos/jardinu.jpg");
+  background-size: cover;
+   display: block; 
+   margin: 0 auto; 
+  float:center;
+  }
